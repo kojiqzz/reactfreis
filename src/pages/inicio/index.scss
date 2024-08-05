@@ -54,6 +54,8 @@
       text-decoration: none;
     }
 
+    
+
     .card {
       width: 215px;
       height: 160px;
@@ -75,7 +77,7 @@
       .laranja {
         background-color: orange;
       }
-
+      
       .titulo {
         font-size: 16px;
         font-weight: bold;
@@ -89,6 +91,54 @@
         margin-top: 10px;
         color: #383131;
       }
+      
     }
+  }
+}
+
+
+.card {
+  width: 215px;
+  height: 160px;
+  border-radius: 12px;
+
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  text-decoration: none;
+
+  .retangulo {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+  }
+
+  .verde{
+    background-color: rgb(37, 129, 52);
+  }
+}
+
+.card3 {
+  width: 215px;
+  height: 160px;
+  border-radius: 12px;
+
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  text-decoration: none;
+
+  .retangulo {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+  }
+
+  .azul{
+    background-color: rgb(37, 58, 129);
   }
 }
