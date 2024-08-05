@@ -1,0 +1,17 @@
+.calculo-cupom{
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    gap: 10px;
+
+    label{
+        margin: 5px;
+    }
+    input{
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+}

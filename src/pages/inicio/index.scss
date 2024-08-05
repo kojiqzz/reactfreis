@@ -1,0 +1,94 @@
+.faixa {
+  background-color: #6278f7;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+
+  .inicio {
+    display: flex;
+    color: #fff;
+    font-family: Arial;
+    font-size: 1vh;
+    margin-left: right 5vh;
+    align-items: center;
+    gap: 2vh;
+
+    img {
+      margin-left: 5vh;
+      padding: auto;
+      height: 4vh;
+    }
+  }
+  .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      padding: 0.5vh;
+      margin-right: 3vh;
+      text-decoration: none;
+      color: #fff;
+      font-family: Arial;
+    }
+  }
+
+  .img {
+    img {
+      height: 3vh;
+    }
+  }
+}
+
+.menu {
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  
+  
+
+  .cards {
+    margin-top: 36px;
+
+    .link {
+      text-decoration: none;
+    }
+
+    .card {
+      width: 215px;
+      height: 160px;
+      border-radius: 12px;
+
+      text-align: center;
+      align-content: center;
+      background-color: white;
+      text-decoration: none;
+
+      .retangulo {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        height: 60px;
+        width: 60px;
+        border-radius: 12px;
+      }
+
+      .laranja {
+        background-color: orange;
+      }
+
+      .titulo {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #383131;
+      }
+
+      .subtitulo {
+        font-size: 16px;
+        font-weight: lighter;
+        margin-top: 10px;
+        color: #383131;
+      }
+    }
+  }
+}
